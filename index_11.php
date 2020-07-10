@@ -20,18 +20,8 @@ and open the template in the editor.
             
             <form method="get" action="dados.php">
             
-                <label for="papel">Primeiro Valor</label>
-                <!--<input type="number" name="papel" min="0" max="9">-->
-                <select name="papel">
-                    <?php
-                        for($c = 1; $c <= 10; $c++){
-                            echo"<option>$c</option>";
-                        }
-                    
-                    ?>
-                    
-                    
-                </select>
+                <label for="cont">Primeiro Valor</label>
+                <input type="number" name="cont" min="0" max="9">
                 <br>
              
          
